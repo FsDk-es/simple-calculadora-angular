@@ -1,0 +1,28 @@
+    
+      <!-- 
+# Por: FsDk, Jose Antonio Gimenez http://www.eScripting.org
+# 22/04/2022           
+# Puedes modificar siempre que quieras el codigo lo publico como ejemplo  
+# Pero en ningún momento quiero que quites estas lineas de créditos 
+# espero que te pueda servir  y sea de tu agrado. 
+    -->
+  
+  <div class="container">
+        <h1>{{Titulo}}</h1>
+    </div>
+    <form>
+        <div class="form-control">
+        <div class="container">
+            <label>Escribe el valor A</label>
+            <input type="number" class="form-control" placeholder="ingresa aqui el valor A" [(ngModel)]="valorA" name="valorA"/>
+            <br/>
+            <label>Escribe el valor B</label>
+            <input type="number" class="form-control"  placeholder="ingresa aqui el valor B" [(ngModel)]="valorB" name="valorB"/>
+            <br/> 
+            <input type="button" class="btn btn-primary" value="Sumar" (click)="sumar()">   Resultado: {{resultado}} 
+        </div>
+
+        </div>
+    </form>
+    
+ 
